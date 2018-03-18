@@ -1,9 +1,7 @@
 <template>
   <v-app dark>
       <v-content>
-        <v-container>
-          <v-parallax height="600">
-
+        <v-container fill-height>
           <v-layout align-center>
 
             <v-flex xs12>
@@ -30,8 +28,6 @@
               </div>
             </v-flex>
           </v-layout>
-        </v-parallax>
-
         </v-container>
       </v-content>
       <v-footer class="secondary" app>
